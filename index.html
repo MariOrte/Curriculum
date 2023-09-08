@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurriculumVitae</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="img/logo.svg" alt="logo" width="100">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#Imagen Personal">Imagen Personal</a></li>
+                <li><a href="#Datos Personales">Datos Personales</a></li>
+                <li><a href="#Datos Laborales">Datos Laborales</a></li>
+                <li><a href="#Proyectos Realizados">Poyectos Realizados</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Curriculum Vitae</h1>
+        <h2>María José Ortega Medina</h2>
+        <a  class="cta-button" href="#contacto">Contactar</a>
+       </div> 
+</section>
+
+<section class="Imagen Personal" id="Imagen Personal">
+    <h1 class="titulo"><u>Imagen de Presentación</u></h1>
+    <div class="Photo">
+    <img class="imgfoto" src="img/img.png" alt="Foto Personal" width="260">
+    </div>
+</section>
+
+<section class="Datos Personales" id="Datos Personales">
+    <h1 class="titulo"><u>Datos Personales</u></h1>
+    <div class="lista">
+        <div class="personal">
+            <img src="img/img2.png" alt="usuario" width="90">
+            <h3>Nombre Completo</h3>
+            <p>María José Ortega Medina</p>
+        </div>
+        <div class="personal">
+          <img src="img/img3.png" alt="profesion" width="160">
+          <h3>Profesión</h3> 
+          <p>Estudiante universitaria</p>
+        </div>
+        <div class="personal">
+            <img src="img/img4.png" alt="carrera" width="140">
+            <h3>Carrera</h3>
+            <p>Ingeniería en Sistemas de la Información</p>
+        </div>
+        <divb class="personal">
+            <img src="img/unanlogo.png" alt="unanlogo" width="90">
+            <h3>Universidad</h3>
+            <p>Universidad Nacional Autonóma de Nicaragua</p>
+        </div>
+        <div class="personal">
+            <img class="imgobjetivo" src="img/img5.png" alt="objetivo" width="120">
+            <h3 class="objetivo">Objetivo</h3>
+            <p class="objetivo">Preparación amplia y actualizada en el diseño, configuración y administración
+                de redes y sistemas de información, para crear soluciones en empresas o instituciones.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="Datos Laborales" id="Datos Laborales">
+  <h1 class="titulo"><u>Datos Laborales</u></h1>
+  <img class="imgempresa" src="img/empresa.png" alt="empresa" width="130">  
+  <p class="Datoslab"> Sistema de Información,
+    Área de Soporte Técnico en la institución Fondo de Inversion Social 
+    de Emergencia (<strong>FISE</strong>).
+  </p>
+</section>
+
+<section class="Proyectos Realizados" id="Poyectos Realizados">
+    <h1 class="titulo"><u>Proyectos Realizados</u></h1>
+    <div class="proyecto-slider">
+      <div class="proyect">
+    <h3>Curso de Inglés</h3>
+    <img src="img/img7.png" alt="excel" width="130">
+    <p>Nivel Advanced Conversation,<strong>ADEI
+        Academy</strong>
+     </p>   
+    </div>
+    <div class="proyect">
+      <h3>Curso de Excel</h3>
+     <img src="img/img6.png" alt="ingles" width="130">
+     <p>Curso de Excel Básico, Universidad
+        Nacional de Ingeniería - <strong>UNI</strong> </p>   
+    </div>  
+    </div>
+    
+</section>
+
+<section class="Contacto" id="Contacto">
+    <h2 class="titulo"><u>Contacto</u></h2>
+    <p><strong>Contactar</strong></p>
+    <a href="mailto:mortegamedina77@gmail.com" class="cta-button">Enviar correo</a>
+    <br>
+    <h3>ó</h3>
+    <form action="procesar.php" method="post">
+        <h2>Deja un mensaje</h2>
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+             <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Enviar Mensaje</button>
+    </form>
+</section>
+
+<section class="Footer" id="Footer">
+    <p>&copy;2023 Curriculum Vitae. Todos los derechos reservados.</p>
+</section>
+
+</body>
+</html>
